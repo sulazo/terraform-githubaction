@@ -21,5 +21,5 @@ provider "local" {}
 # ---------------------------------------------
 resource "local_file" "hello_world" {
   filename = "hello.txt"                           # Name of the file to create
-  content  = "Hello, world from Terraform!"        # Text to write inside the file
+  content  = "Hello, world from Terraform!!"        # Text to write inside the file
 }
